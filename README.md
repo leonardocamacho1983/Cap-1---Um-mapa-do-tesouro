@@ -90,4 +90,5 @@ O sistema permite:
 
 Este modelo de banco de dados suporta a implementação de um sistema de agricultura de precisão, permitindo o uso otimizado de recursos e aumento da produtividade através do monitoramento contínuo e análise de dados.
 
-
+See model: 
+https://github.com/leonardocamacho1983/Cap-1---Um-mapa-do-tesouro/edit/main/README.md#:~:text=04%2D15%20at-,20.29.13,-%402x.jpg
