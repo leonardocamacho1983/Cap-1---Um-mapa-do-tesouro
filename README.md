@@ -4,7 +4,7 @@ Este repositório contém a modelagem relacional do sistema de monitoramento agr
 
 ## 📌 Objetivo
 
-Criar uma estrutura de banco de dados relacional capaz de armazenar e analisar os dados coletados por sensores de umidade, pH e nutrientes (fósforo e potássio), possibilitando:
+Criar uma estrutura de banco de dados relacional capaz de armazenar e analisar os dados coletados por sensores de umidade, pH e nutrientes (nitrogênio, fósforo e potássio), possibilitando:
 
 - Visualização e histórico de leituras de sensores
 - Aplicação eficiente de água e insumos
@@ -77,28 +77,28 @@ Registros de leitura feitas pelos sensores.
 
 ## 🔗 Relacionamentos
 
-- **Um Talhão** pode ter **várias Zonas** (1:N)
-- **Uma Zona** pode conter **múltiplos Sensores e Culturas** (1:N)
-- **Um Sensor** pode ter **várias Leituras** (1:N)
+- **Um Talhão**  tem **uma ou mais Zonas**. **Uma Zona** pertence a **um Talhão**.
+- **Uma Zona** pode conter **nenhum ou múltiplos Sensores**. **Um Sensor** pertence a **uma Zona**.
+- **Uma Zona** podeter **uma ou nenhuma Cultura**. **Uma Cultura** está plantada em **uma Zona**.
+- **Um Sensor** pode ter muitas ou nenhuma **Leitura**. **Uma Leitura** pertence a **um Sensor**.
 
 ---
 
 ## 📁 Conteúdo do Repositório
 
-- `farmtech_model.sql` — Script SQL gerado com os comandos de criação das tabelas
-- `farmtech_model.xml` — Arquivo do modelo exportado em XML
-- `farmtech_model.png` — Imagem do DER
+- `Farmtech_diagram.png` — Imagem do diagrama (DER)
+- `Farmtech_diagram.pdf` — Arquivo PDF do diagrama (DER)
+- `Farmtech_diagram.pdf` — Arquivo DMD do modelo
 - `README.md` — Este documento explicativo
 
 ---
 
 ## 👤 Integrantes do grupo
 
-- João Santos - RM123456
-- Ana Oliveira - RM654321
-- Bruno Silva - RM112233
-- Camila Ferreira - RM998877
-- Leonardo Camacho - RM765432
+- [Edmilson Marciano](https://github.com/marciano64) - RM565912
+- [Jayro Mazzi Junior](https://github.com/jayrom) - RM565576
+- [Leonardo Camacho](leonardocamacho1983) - RM565099
+- [Lucas Arcanjo](https://github.com/ArcanjoLucas00) - RM563353
 
 ---
 

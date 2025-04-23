@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FE_DER_sensores" id="84E958BD-35ED-D4DA-C874-3262D4191E0C" version="3.5">
+<createdBy>jayro.mazzi</createdBy>
+<createdTime>2025-04-21 20:12:47 UTC</createdTime>
+<ownerDesignName>FE_DER_sensores</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>84E958BD-35ED-D4DA-C874-3262D4191E0C</designId>
+</OSDM_Design>
